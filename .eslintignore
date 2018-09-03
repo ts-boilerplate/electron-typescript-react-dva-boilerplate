@@ -1,0 +1,8 @@
+# Dependcies
+**/node_modules
+
+# Build results
+build
+build-main
+build-renderer
+
