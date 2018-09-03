@@ -12,7 +12,7 @@ An electron boilerplate that supports TypeScript, React, Dva and HMR
 
 
 
-## 3 Steps to Get Started
+## 3 Easy Steps to Get Started
 1. Clone this repository to local
 ```bash
 git clone https://github.com/ts-boilerplate/electron-typescript-react-dva-boilderplate.git
