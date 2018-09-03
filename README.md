@@ -1,4 +1,4 @@
-A boilerplate that supports TypeScript, React, Dva and HMR
+An electron boilerplate that supports TypeScript, React, Dva and HMR
 
 
 ## Features
