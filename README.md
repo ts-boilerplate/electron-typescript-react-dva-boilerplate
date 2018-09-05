@@ -19,6 +19,7 @@ git clone https://github.com/ts-boilerplate/electron-typescript-react-dva-boilde
 ```
 2. Install dependencies and start
 ```base
+cd electron-typescript-react-dva-boilderplate
 npm install
 npm start
 ```
