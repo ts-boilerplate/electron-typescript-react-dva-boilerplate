@@ -12,18 +12,24 @@ An electron boilerplate that supports TypeScript, React, Dva and HMR
 
 
 
-## 3 Easy Steps to Get Started
+## 2 Steps to Get Started
 1. Clone this repository to local
 ```bash
 git clone https://github.com/ts-boilerplate/electron-typescript-react-dva-boilderplate.git
 ```
-2. Rename `package.base.json` to `package.json`;
-3. Initalize project
+2. Install dependencies and start
 ```base
-npm init -y
 npm install
 npm start
 ```
+> Note: `package.json` only consists of 2 basic properties: `devDependencies` and `scripts`, other remaining properties like `name`, `description` can be added freely.  
+Current `package.json`:
+>```js
+>{
+>  "scripts": {...},
+>  "devDependencies": {...}
+>}
+>```
 
 Then an electron window would lauch, and you would enjoy an awesome coding experience with typescript, react, dva, and hmr.
 
