@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "start": "cross-env NODE_ENV=development ts-node src/server/index.ts --project src/server/tsconfig.json",
-    "build": "ts-node src/server/index.ts --project src/server/tsconfig.json"
+    "start": "cross-env NODE_ENV=development ts-node --project src/server/tsconfig.json src/server/index.ts",
+    "build": "ts-node --project src/server/tsconfig.json src/server/index.ts"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.116",

@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    // "module": "commonjs",
-    // "moduleResolution": "node",
-    // "types": ["node"],
-    // "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
     "./**/*",

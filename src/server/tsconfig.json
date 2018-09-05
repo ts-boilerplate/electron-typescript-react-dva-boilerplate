@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "moduleResolution": "node",
-    "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "typeRoots": [
       "../shared/typings/**/*"
