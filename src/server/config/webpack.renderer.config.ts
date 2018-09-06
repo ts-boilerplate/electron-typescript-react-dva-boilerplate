@@ -60,9 +60,13 @@ const webpackClientConfig = {
       }
     ],
    ),
-
-   new webpack.HotModuleReplacementPlugin()
-  ]
+  ].concat(
+    __DEV__ ?
+     [
+      new webpack.HotModuleReplacementPlugin()
+    ]:
+    []    
+  )
 }
 
 
